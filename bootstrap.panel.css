@@ -1,0 +1,11 @@
+/* Bootsrap panel */
+.panel-success {
+    border-color: rgb(68, 157, 68);
+}
+.panel-success > .panel-heading {
+    color: #fff;
+    background-color: rgba(68, 157, 68, 0.5);
+    border-color: rgb(68, 157, 68);
+    background-image: none;
+    color: #000;
+}
