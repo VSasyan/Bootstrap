@@ -1,0 +1,36 @@
+/* default (Bootsrap 3), secondary (Bootsrap 4) */
+.btn-static.btn-default:hover,
+.btn-static.btn-secondary:hover {
+	background-color: white;
+	border: 1px solid lightgrey;
+	cursor: default;
+}
+
+/* primary */
+.btn-static.btn-primary:hover {
+}
+
+/* success */
+.btn-static.btn-success:hover {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	cursor: default;
+}
+
+/* info */
+.btn-static.btn-info:hover {
+}
+
+/* warning */
+.btn-static.btn-warning:hover {
+}
+
+/* danger */
+.btn-static.btn-danger:hover {
+}
+
+.btn-static:active {
+	-moz-box-shadow:    inset 0 0 0px white;
+	-webkit-box-shadow: inset 0 0 0px white;
+	box-shadow:         inset 0 0 0px white;
+}
