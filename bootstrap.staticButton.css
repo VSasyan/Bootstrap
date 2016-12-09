@@ -1,11 +1,15 @@
 /* Bootsrap Static Buttons */
 
+/* common static styles */
+.btn-static:hover {
+    cursor: default;
+}
+
 /* default (Bootsrap 3), secondary (Bootsrap 4) */
 .btn-static.btn-default:hover,
 .btn-static.btn-secondary:hover {
 	background-color: white;
 	border: 1px solid lightgrey;
-	cursor: default;
 }
 
 /* primary */
@@ -16,11 +20,12 @@
 .btn-static.btn-success:hover {
 	background-color: #5cb85c;
 	border-color: #4cae4c;
-	cursor: default;
 }
 
 /* info */
 .btn-static.btn-info:hover {
+    background-color: #5bc0de;
+    border-color: #46b8da;
 }
 
 /* warning */
